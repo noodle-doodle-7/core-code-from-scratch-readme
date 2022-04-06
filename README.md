@@ -28,11 +28,11 @@ These are processed on a line-by-line format, this makes them slower than compil
 
 <hr>
 
-> *JavaScript is considered a hibrid, due to it has characteristics of both compiled and interpreted languages.*
+> *JavaScript is considered a hybrid, due to it has characteristics of both compiled and interpreted languages.*
 
 <hr>
 
-## Pseudocode currency converter
+## Pseudocode for currency converter
 
 ```
 ### num1 = USD amount to covert
@@ -40,17 +40,26 @@ These are processed on a line-by-line format, this makes them slower than compil
 ### Total = USD amount coverted to BTC
 
 START
+PRINT Hello, please enter the amount to USD to covert!
 num1 <-- GET
+PRINT Thank you, please wait a moment.
 num2 <-- GET(https://valuta.exchange/es/usd-to-btc)
 Total <-- num1 / num2
+PRINT Your total in BTC is
 PRINT Total
 END
 ```
 
 ## Low-Level vs High-Level Programming Languages
 
-The level of a coding languages represents the amount of abstraction between *Programming Languages* and *Machine Languages*
+> The level of a coding languages represents the amount of abstraction between *Programming Languages* and *Machine Languages*
 
-| TEST |
 | Low-Level | High-Level |
 | ---- | ---- |
+| Little or no distortion of programming concepts | Rely on functions, objects or other abstractions |
+| Close to hardware | Simpler to use |
+| No complier or interpreter needed | Independent of architecture |
+| Very efficient | Not as efficent due to line-by-line operation |
+| Great for OS or firmware applications | Easier to develop |
+| Difficult to use & takes longer to develop | Mainly used on Web applications |
+
