@@ -70,6 +70,14 @@ END
 | Difficult to use & takes longer to develop | Mainly used on Web applications |
             
 </p>
+</details>     
+            
+<details><summary> Wednesday April 6th </summary>
+<p>   
+
+Insert Here
+            
+</p>
 </details>            
 
 </p>
