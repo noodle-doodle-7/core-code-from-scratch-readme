@@ -29,7 +29,6 @@ These are processed on a line-by-line format, this makes them slower than compil
 ## Pseudocode currency converter
 
 ```
-
 ### num1 = USD amount to covert
 ### num2 = updated BTC value
 ### Total = USD amount coverted to BTC
