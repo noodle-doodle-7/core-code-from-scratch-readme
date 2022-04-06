@@ -25,3 +25,16 @@ These are processed on a line-by-line format, this makes them slower than compil
 | Cross-platform | Interpreter required |
 | Simpler to test | Ofter Slower |
 | Easier to debug | Source Code is public |
+
+## Pseudocode currency converter
+
+```
+
+START
+num1 <-- GET
+num2 <-- GET(https://valuta.exchange/es/usd-to-btc)
+Total <-- num1 * num2
+PRINT Total
+END
+```
+
