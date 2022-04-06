@@ -26,6 +26,12 @@ These are processed on a line-by-line format, this makes them slower than compil
 | Simpler to test | Ofter Slower |
 | Easier to debug | Source Code is public |
 
+<hr>
+
+> *JavaScript is considered a hibrid, due to it has characteristics of both compiled and interpreted languages.
+
+<hr>
+
 ## Pseudocode currency converter
 
 ```
