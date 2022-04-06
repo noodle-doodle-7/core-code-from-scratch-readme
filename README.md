@@ -36,7 +36,7 @@ These are processed on a line-by-line format, this makes them slower than compil
 START
 num1 <-- GET
 num2 <-- GET(https://valuta.exchange/es/usd-to-btc)
-Total <-- num1 * num2
+Total <-- num1 / num2
 PRINT Total
 END
 ```
