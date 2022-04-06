@@ -28,7 +28,7 @@ These are processed on a line-by-line format, this makes them slower than compil
 
 <hr>
 
-> *JavaScript is considered a hibrid, due to it has characteristics of both compiled and interpreted languages.
+> *JavaScript is considered a hibrid, due to it has characteristics of both compiled and interpreted languages.*
 
 <hr>
 
