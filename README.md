@@ -1,6 +1,6 @@
 # core-code-from-scratch-readme
 
-## Compiled vrs Interpreted programming languages
+## Compiled vs Interpreted programming languages
 
 ### Compiled Languages
 
@@ -41,3 +41,9 @@ PRINT Total
 END
 ```
 
+## Low-Level vs High-Level Programming Languages
+
+The level of a coding languages represents the amount of abstraction between *Programming Languages* and *Machine Languages*
+
+| Low-Level | High-Level |
+| ---- | ---- |
