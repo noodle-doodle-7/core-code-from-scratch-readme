@@ -6,10 +6,7 @@ Compiled vrs Interpreted programming languages
 
 These are instructions that our processor can handle and understand, and have to be manually compiled. These are faster and efficent to handle and provide better control over hardware. 
 
-> there are 3 parts for these code:
-            - source code
-            - compiler
-            - machine code (executable)
+> there are 3 parts for these code: source code, compiler & machine code (executable).
             
 | Pros ✅ | Cons ❌ |
 | ---- | ---- |
