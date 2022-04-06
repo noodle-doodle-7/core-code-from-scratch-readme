@@ -54,7 +54,7 @@ END
 
 > The level of a coding languages represents the amount of abstraction between *Programming Languages* and *Machine Languages*
 
-| Low-Level | High-Level |
+| Low-Level 📉 | High-Level 📈 |
 | ---- | ---- |
 | Little or no distortion of programming concepts | Rely on functions, objects or other abstractions |
 | Close to hardware | Simpler to use |
