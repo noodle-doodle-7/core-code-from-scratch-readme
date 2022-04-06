@@ -30,6 +30,10 @@ These are processed on a line-by-line format, this makes them slower than compil
 
 ```
 
+### num1 = USD amount to covert
+### num2 = updated BTC value
+### Total = USD amount coverted to BTC
+
 START
 num1 <-- GET
 num2 <-- GET(https://valuta.exchange/es/usd-to-btc)
