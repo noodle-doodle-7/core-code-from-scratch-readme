@@ -10,6 +10,11 @@ These are instructions that our processor can handle and understand, and have to
             - source code
             - compiler
             - machine code (executable)
+            
+| Pros | Cons |
+| Ready to run | Not cross-platform |
+| Open faster | Not flexible |
+| Source Code stays private/secured | Too much steps |
 
 - Interpreted Languages
 
