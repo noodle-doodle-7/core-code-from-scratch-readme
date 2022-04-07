@@ -168,6 +168,44 @@ We remove the powers of 2 and the commas from the list & then you are left with 
 
 This collection of 1's and 0's is the equivalent to "1999" in binary code. Input this solution on [this](https://www.binaryhexconverter.com/binary-to-decimal-converter) calculator to check the result.
            
+### Program that adds any two given numbers provided by the user
+> This code was created on the MIPS platform.
+            
+```
+  .data
+	      num1: .asciiz "\nIngrese el primer numero: "
+	      num2: .asciiz "\nIngrese el segundo numero: "
+	      resultado: .asciiz "\nEl resultado es: "
+  .text
+	      main:
+	      li $v0, 4
+	      la $a0, num1
+	      syscall
+	      
+	      li $v0, 5
+	      syscall
+	      
+	      move $t0, $v0
+	      
+	      li $v0, 4
+	      la $a0, num2
+	      syscall
+	      
+	      li $v0, 5
+	      syscall
+	      
+	      move $t1, $v0
+	      
+	      add $t2, $t0, $t1
+	     
+	      li $v0, 4
+	      la $a0, resultado
+	      syscall
+	      
+	      li $v0, 1
+              move $a0, $t2
+              syscall
+```
             
 </p>
 </details>            
