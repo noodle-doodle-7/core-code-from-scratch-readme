@@ -82,9 +82,9 @@ END
             
 If my bithday year is 1999, we need to find how to translate it into binary code.
             
-STEP 1 > First we get the year that we want to convert --> 1999
+**STEP 1** > First we get the year that we want to convert --> 1999
             
-STEP 2 > Then we need the powers of 2 to find a big enought power that equal or the closest to "1999" but not bigger than "1999"
+**STEP 2** > Then we need the powers of 2 to find a big enought power that equal or the closest to "1999" but not bigger than "1999"
 
             2^1 = 2
             2^2 = 4
@@ -101,7 +101,7 @@ STEP 2 > Then we need the powers of 2 to find a big enought power that equal or 
             
 We stop at "1024" due to is less than "1999" (the number that we are converting) and "2048" is more than "1999" too. 
             
-STEP 3 > We need to keep track that we used one (1) 2^10 = 1024 and we substract "1024" from "1999".
+**STEP 3** > We need to keep track that we used one (1) 2^10 = 1024 and we substract "1024" from "1999".
             
             1999 - 1024 = 975
             
@@ -140,7 +140,7 @@ We apply STEP 2 and STEP 3 again.
             
             463 - 256 = 207
             
-STEP 4 > After substracting all the powers of 2 until we get "0", fill up the spaces between the numbers that we did not used with a "0" and organize it.
+**STEP 4** > After substracting all the powers of 2 until we get "0", fill up the spaces between the numbers that we did not used with a "0" and organize it.
             
             2^0 = 1 (1)
             2^1 = 2 (1)
