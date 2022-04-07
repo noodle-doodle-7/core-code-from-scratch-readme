@@ -169,7 +169,7 @@ We remove the powers of 2 and the commas from the list & then you are left with 
 This collection of 1's and 0's is the equivalent to "1999" in binary code. Input this solution on [this](https://www.binaryhexconverter.com/binary-to-decimal-converter) calculator to check the result.
            
 ### Program that adds any two given numbers provided by the user
-> This code was created on the MIPS platform.
+> This _assembly_ code was created on the MIPS platform.
             
 ```assembly
   .data
@@ -208,7 +208,7 @@ This collection of 1's and 0's is the equivalent to "1999" in binary code. Input
 ```
 
 ### Program that prints my name
-> This code was created on the MIPS platform.
+> This _assembly_ code was created on the MIPS platform.
 
 ```assembly
 .data
