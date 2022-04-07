@@ -221,7 +221,15 @@ This collection of 1's and 0's is the equivalent to "1999" in binary code. Input
 ```
             
 </p>
-</details>            
+</details>
+
+<details><summary> Thrusday April 7th </summary>
+<p>
+
+INSERT HERE
+
+</p>
+</details>
 
 </p>
 </details>
