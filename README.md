@@ -206,6 +206,18 @@ This collection of 1's and 0's is the equivalent to "1999" in binary code. Input
               move $a0, $t2
               syscall
 ```
+
+### Program that prints my name
+
+```
+.data
+	      name: .asciiz "\n > Fernando Maldonado :D < "
+  .text
+	      main:
+	      li $v0, 4
+	      la $a0, name
+	      syscall
+```
             
 </p>
 </details>            
