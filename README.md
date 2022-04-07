@@ -42,7 +42,7 @@ These are processed on a line-by-line format, this makes them slower than compil
             
 > *Pseudocode* is defined as simple or plain description of the steps contained in an algorithm.
 
-```
+```javascript
 ### num1 = USD amount to covert
 ### num2 = updated BTC value
 ### Total = USD amount coverted to BTC
@@ -171,7 +171,7 @@ This collection of 1's and 0's is the equivalent to "1999" in binary code. Input
 ### Program that adds any two given numbers provided by the user
 > This code was created on the MIPS platform.
             
-```
+```assembly
   .data
 	      num1: .asciiz "\nIngrese el primer numero: "
 	      num2: .asciiz "\nIngrese el segundo numero: "
@@ -210,7 +210,7 @@ This collection of 1's and 0's is the equivalent to "1999" in binary code. Input
 ### Program that prints my name
 > This code was created on the MIPS platform.
 
-```
+```assembly
 .data
 	      name: .asciiz "\n\n > Fernando Maldonado :D < \n\n "
   .text
