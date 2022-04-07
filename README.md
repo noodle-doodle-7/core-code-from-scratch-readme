@@ -208,10 +208,11 @@ This collection of 1's and 0's is the equivalent to "1999" in binary code. Input
 ```
 
 ### Program that prints my name
+> This code was created on the MIPS platform.
 
 ```
 .data
-	      name: .asciiz "\n > Fernando Maldonado :D < "
+	      name: .asciiz "\n\n > Fernando Maldonado :D < \n\n "
   .text
 	      main:
 	      li $v0, 4
