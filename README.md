@@ -80,7 +80,7 @@ END
 ### Date of birth in Matrix (binary code)
 > This was calculated using the method of *the powers of 2*, demonstrated in [this](https://www.youtube.com/watch?v=rsxT4FfRBaM&ab_channel=TheOrganicChemistryTutor) video.
             
-If my bithday year is 1999, we need to find how to tranlated into binary code.
+If my bithday year is 1999, we need to find how to translate it into binary code.
             
 STEP 1 > First we get the year that we want to convert --> 1999
             
