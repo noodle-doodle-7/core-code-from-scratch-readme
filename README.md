@@ -226,7 +226,26 @@ This collection of 1's and 0's is the equivalent to "1999" in binary code. Input
 <details><summary> Thrusday April 7th </summary>
 <p>
 
-INSERT HERE
+### How to Print Special Numbers? 
+
+```javascript
+
+// Let's print just the even numbers from 0 to 100
+
+for (var i = 0; i <= 100; i++) {
+    if (i % 2 == 0) console.log (i);
+}    
+
+/*
+
+var i = 0 indicates that we start with 0
+i <= 100 indicates the limit of the count
+i++ indicates increment (+1)
+if (i % 2 == 0) validates of the number is even
+
+*/
+
+```
 
 </p>
 </details>
