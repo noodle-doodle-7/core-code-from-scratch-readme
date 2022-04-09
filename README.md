@@ -247,6 +247,33 @@ if (i % 2 == 0) validates of the number is even
 
 ```
 
+### Bad Code pt I
+
+The code shown below is not working on the desired way, after checking some loggical operators, we can notice that the other developer wrote the wrong logical test operation in the first part of the code.
+
+```javascript
+var cond = false;
+
+if ((cond = true)) {
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}
+```
+
+Now that we recognize the error, we can correct it by simply changing one logical operator. We swapped the "_if ((cond = true))_" for "_if (cond == true)_".
+
+```javascript
+var cond = false;
+
+if (cond == true) {
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}
+```
+> You can the explanation about the _==_ logical operator on this [link](https://learn.onemonth.com/difference-between-equal-signs-javascript/#:~:text=In%20JavaScript%2C%20the%20%E2%80%9C%3D%3D%E2%80%9D,return%20either%20true%20or%20false.)
+
 </p>
 </details>
 
