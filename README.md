@@ -274,6 +274,13 @@ if (cond == true) {
 ```
 > You can the explanation about the _==_ logical operator on this [link](https://learn.onemonth.com/difference-between-equal-signs-javascript/#:~:text=In%20JavaScript%2C%20the%20%E2%80%9C%3D%3D%E2%80%9D,return%20either%20true%20or%20false.)
 
+### Bad Code pt II
+
+We need to correct the following code to complain with the next requirements:
+- If the number is 100, display the message "This is a special number!"
+- If the number is less than 1000 but a multiple of 10, display the message "This number is almost special."
+- If none of the above are true display the message "Just a regular number"
+
 </p>
 </details>
 
