@@ -276,16 +276,32 @@ if (cond == true) {
 
 ### Bad Code pt II
 
-We need to correct the following code to complain with the next requirements:
+We need to correct the following code to be compliant with the following requirements:
 - If the number is 100, display the message "This is a special number!"
 - If the number is less than 1000 but a multiple of 10, display the message "This number is almost special."
 - If none of the above are true display the message "Just a regular number"
 
 ```javascript
+var n = 100;
 
-var n = 845;
-console.log ('The current assigned value is: ')
-console.log (n)
+if (n == 100) {
+  console.log('This is a special number!');
+}
+if (n < 1000) {
+  console.log('');
+} else {
+  console.log('Just a regular number');
+}
+if (n % 10 == 0) {
+  console.log('This number is multiple of 10');
+}
+```
+After tweaking and optimizing the previous code, we are left with this:		      
+
+```javascript
+
+var n = 100;
+console.log ('The current assigned value is: ', n)
 
 if (n == 100) {
 console.log ('This is a special number!');
