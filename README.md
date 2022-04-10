@@ -281,6 +281,19 @@ We need to correct the following code to complain with the next requirements:
 - If the number is less than 1000 but a multiple of 10, display the message "This number is almost special."
 - If none of the above are true display the message "Just a regular number"
 
+```javascript
+
+var n = 100;
+
+if (n == 100) {
+console.log ('This is a special number!');
+} esle if (n <1000 && n % 10 == 0){
+console.log ('This number is almost special');
+} else { 
+console.log ('Just a regular number.')
+}
+```
+
 </p>
 </details>
 
