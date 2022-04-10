@@ -287,7 +287,7 @@ var n = 100;
 
 if (n == 100) {
 console.log ('This is a special number!');
-} esle if (n <1000 && n % 10 == 0){
+} esle if (n < 1000 && n % 10 == 0) {
 console.log ('This number is almost special');
 } else { 
 console.log ('Just a regular number.')
