@@ -283,15 +283,18 @@ We need to correct the following code to complain with the next requirements:
 
 ```javascript
 
-var n = 100;
+var n = 845;
+console.log ('The current assigned value is: ')
+console.log (n)
 
 if (n == 100) {
 console.log ('This is a special number!');
-} esle if (n < 1000 && n % 10 == 0) {
-console.log ('This number is almost special');
+} else if (n < 1000 && n % 10 == 0) {
+console.log ('This number is almost special.');
 } else { 
 console.log ('Just a regular number.')
 }
+
 ```
 
 </p>
