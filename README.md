@@ -1,7 +1,6 @@
-# core-code-from-scratch-readme
+<h1 align="center"> Core Code Software Development from scratch </h1>
 
-<details><summary> Week #1 </summary>
-<p>
+<h2 align="center"> Week # 1 </h2>
 
 <details><summary> Tuesday April 5th </summary>
 <p>
@@ -316,5 +315,6 @@ console.log ('Just a regular number.')
 </p>
 </details>
 
-</p>
-</details>
+<h2 align="center"> Week # 2 </h2>
+
+lolololo
