@@ -325,12 +325,14 @@ console.log ('Just a regular number.')
 
 <details><summary> Tuesday April 19th </summary>
 <p>
+
 ### Multiply Exercise (Kata)
 ```javascript
 function multiply(a, b){
   return a * b
 }
 ```
+
 </p>
 </details>
 
