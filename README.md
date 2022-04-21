@@ -335,17 +335,41 @@ function multiply(a, b){
 
 ### ASCII Total
 
+_Work in progress..._
+
 ### Char From ASCII Value
+
+_Coming soon..._
 
 ### Binary Addition 
 
+_Coming soon..._
+
 ### Student's Final Grade
+
+_Coming soon..._
 
 </p>
 </details>
 
 <details><summary> Wednesday April 20th </summary>
 <p>
+
+### Holiday VIII - Duty Free
+
+_Coming soon..._
+
+### Twice As Old
+
+_Coming soon..._
+
+### Valid Spacing
+
+_Coming soon..._
+
+### Fake Binary
+
+_Coming soon..._
 
 </p>
 </details>
