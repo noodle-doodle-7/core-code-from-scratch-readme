@@ -317,4 +317,20 @@ console.log ('Just a regular number.')
 
 <h2 align="center"> Week # 2 </h2>
 
-lolololo
+<details><summary> Monday April 18th </summary>
+<p>
+
+</p>
+</details>
+
+<details><summary> Tuesday April 19th </summary>
+<p>
+
+</p>
+</details>
+
+<details><summary> Wednesday April 20th </summary>
+<p>
+
+</p>
+</details>
