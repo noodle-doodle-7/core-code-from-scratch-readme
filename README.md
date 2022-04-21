@@ -333,6 +333,14 @@ function multiply(a, b){
 }
 ```
 
+### ASCII Total
+
+### Char From ASCII Value
+
+### Binary Addition 
+
+### Student's Final Grade
+
 </p>
 </details>
 
