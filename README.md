@@ -260,7 +260,7 @@ if ((cond = true)) {
 }
 ```
 
-Now that we recognize the error, we can correct it by simply changing one logical operator. We swapped the "_if ((cond = true))_" for "_if (cond == true)_".
+Now that we recognize the error, we can correct it by simply changing one logical operator. We swapped the ```if ((cond = true))``` for ```if (cond == true)```.
 
 ```javascript
 var cond = false;
@@ -364,9 +364,11 @@ function uniTotal(str) {
 
 ```
 
+> The ```String.prototype.charCodeAt()``` allows us to show the String in the UTF-16 code unit (ASCII).
+
 ### Char From ASCII Value
 
-Write a function _get_char()_ / _getChar()_ which takes a number and returns the corresponding ASCII char for that value.
+Write a function ```get_char()``` / ```getChar()``` which takes a number and returns the corresponding ASCII char for that value.
 
 ```javascript
 
@@ -375,6 +377,8 @@ function getChar(c){
   }
 
 ```
+
+> The ```String.fromCharCode()``` allows to show the String (number) as the letter/number assigned in the UTC-16 code (ASCII).
 
 ### Binary Addition 
 
@@ -388,6 +392,8 @@ function addBinary(a,b) {
 }
 
 ```
+
+> With the object ```Object.prototype.toString()``` we can show a String (number) in a base 2 (binary) numbers.
 
 ### Student's Final Grade
 
