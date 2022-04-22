@@ -327,10 +327,25 @@ console.log ('Just a regular number.')
 <p>
 
 ### Multiply Exercise (Kata)
+
+Corrected code so it will run properly. This was the code provided:
+
 ```javascript
+
 function multiply(a, b){
-  return a * b
+  a * b
 }
+
+```
+
+> corrected code:
+
+```javascript
+
+function multiply(a, b){
+  return a * b;
+}
+
 ```
 
 ### ASCII Total
