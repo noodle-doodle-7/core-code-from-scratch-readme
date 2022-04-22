@@ -357,13 +357,36 @@ _Coming soon..._
 
 ### Holiday VIII - Duty Free
 
-_Coming soon..._
+The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday.
+
+You will be given the high street price _(normPrice)_, the duty free discount _(discount)_ and the cost of the holiday.
+
+```javascript
+
+function dutyFree(normPrice, discount, hol) {
+    let calc = Math.floor( hol / ( (discount * normPrice) / 100 ) );
+    return calc;
+}
+
+```
+
+> I was able to shorten my code after a few tries.
+
+```javascript
+
+function dutyFree(normPrice, discount, hol) {
+    return Math.floor( hol / ( (discount * normPrice) / 100 ) );
+}
+
+```
 
 ### Twice As Old
 
 _Coming soon..._
 
 ### Valid Spacing
+
+Your task is to write a function called _valid_spacing()_ or _validSpacing()_ which checks if a string has valid spacing. The function should return either true or false (or the corresponding value in each language).
 
 ```javascript
 
