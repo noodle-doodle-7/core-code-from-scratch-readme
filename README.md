@@ -326,7 +326,7 @@ console.log ('Just a regular number.')
 <details><summary> Tuesday April 19th </summary>
 <p>
 
-### Multiply Exercise (Kata)
+### Multiply Exercise
 
 Corrected code so it will run properly. This was the code provided:
 
