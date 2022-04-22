@@ -366,7 +366,15 @@ function uniTotal(str) {
 
 ### Char From ASCII Value
 
-_Coming soon..._
+Write a function _get_char()_ / _getChar()_ which takes a number and returns the corresponding ASCII char for that value.
+
+```javascript
+
+function getChar(c){
+    return String.fromCharCode (c);
+  }
+
+```
 
 ### Binary Addition 
 
