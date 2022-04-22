@@ -378,7 +378,16 @@ function getChar(c){
 
 ### Binary Addition 
 
-_Coming soon..._
+Function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition.
+
+```javascript
+
+function addBinary(a,b) {
+    let addb = a + b;
+    return addb.toString(2);
+}
+
+```
 
 ### Student's Final Grade
 
