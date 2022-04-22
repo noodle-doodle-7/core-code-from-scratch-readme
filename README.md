@@ -350,7 +350,19 @@ function multiply(a, b){
 
 ### ASCII Total
 
-_Work in progress..._
+We were given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
+
+```javascript
+
+function uniTotal(str) {
+  let total = 0;
+  for (let i = 0, length = str.length; i < length; i++) {
+    total = total + str[i].charCodeAt();
+  }
+  return total;
+}
+
+```
 
 ### Char From ASCII Value
 
