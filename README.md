@@ -468,3 +468,35 @@ _Coming soon..._
 
 </p>
 </details>
+
+<details><summary> Thursday April 20th </summary>
+<p>
+
+### Remove All Exclamation Marks From The End Of Sentence
+
+_Coming soon..._
+		      
+### Vowel Remover
+
+_Coming soon..._
+
+### Rock Paper Scissors!
+
+_Coming soon..._
+
+### Persistent Bugger
+
+_Coming soon..._
+
+</p>
+</details>
+
+<details><summary> Friday April 21st </summary>
+<p>
+
+### Exam Code
+
+_Not ready yet, please come back later..._
+
+</p>
+</details>
