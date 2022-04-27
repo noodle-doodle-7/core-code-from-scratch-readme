@@ -536,5 +536,25 @@ function likes (names) {
 
 ```
 
+### Bit Counting
+
+Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+```javascript
+
+let countBits = function(n) {
+    if (n === 0) return 0;
+    let bin = (n.toString(2));
+    let temp = 0
+    for ( let i = 0; i < bin.length; i++ ){
+        if (bin[i] === '1') {
+            temp ++;
+        } 
+    }
+    return temp;
+}
+
+```
+
 </p>
 </details>
