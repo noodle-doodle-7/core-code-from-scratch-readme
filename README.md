@@ -556,5 +556,33 @@ let countBits = function(n) {
 
 ```
 
+### Your order, please...
+
+The task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
+
+Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+
+If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
+
+```javascript
+
+function order(words) {
+  let wordsArray = words.split(' ');
+  wordsArray = wordsArray.sort(
+    (w1, w2) => Number(w1.replace(/\D/g, '')) - Number(w2.replace(/\D/g, ''))
+  );
+  return wordsArray.join(' ');
+}
+
+```
+
+</p>
+</details>
+
+<details><summary> Tuesday April 26th </summary>
+<p>
+
+### Simple Pig Latin
+
 </p>
 </details>
